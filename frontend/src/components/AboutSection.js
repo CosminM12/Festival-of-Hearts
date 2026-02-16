@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useInView } from "framer-motion";
+import { motion, useInView } from "motion/react";
 import { Heart, Globe, Music, Users } from "lucide-react";
 
 const stats = [

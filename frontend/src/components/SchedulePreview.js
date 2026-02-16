@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useInView } from "framer-motion";
+import { motion, useInView } from "motion/react";
 import { MapPin, Calendar, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 
