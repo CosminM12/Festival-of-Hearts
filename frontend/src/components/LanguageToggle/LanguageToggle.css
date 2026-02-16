@@ -1,0 +1,31 @@
+.language-toggle {
+  display: flex;
+  gap: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.25rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.language-toggle button {
+  background: none;
+  border: none;
+  color: var(--secondary-color);
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.language-toggle button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.language-toggle button.active {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

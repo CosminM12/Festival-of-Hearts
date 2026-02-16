@@ -1,0 +1,18 @@
+/* Footer.css is now mostly handled by Tailwind classes in the component,
+   but we can keep specific overrides here if needed */
+
+.footer {
+  /* Resetting previous styles to avoid conflicts with the new Tailwind-based design */
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+  margin-top: 0;
+  text-align: left;
+}
+
+.footer-content {
+  display: block;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+}

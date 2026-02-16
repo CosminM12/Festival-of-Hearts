@@ -1,0 +1,156 @@
+:root {
+  /* Romania: Blue, Yellow, Red */
+  --flag-romania: linear-gradient(to right, #002B7F, #FCD116, #CE1126);
+
+  /* Mexico: Green, Light Gray (White), Red */
+  --flag-mexico: linear-gradient(to right, #006847, #D3D3D3, #CE1126);
+
+  /* India: Saffron, Light Gray (White), Green */
+  --flag-india: linear-gradient(to right, #FF9933, #D3D3D3, #138808);
+
+  /* Japan: Light Gray (White), Red (Sun) - represented as gradient */
+  --flag-japan: linear-gradient(to right, #D3D3D3, #BC002D, #D3D3D3);
+
+  /* Greece: Blue, Light Gray (White) */
+  --flag-greece: linear-gradient(to right, #0D5EAF, #D3D3D3, #0D5EAF);
+
+  /* Brazil: Green, Yellow, Blue */
+  --flag-brazil: linear-gradient(to right, #009C3B, #FFDF00, #002776);
+
+  /* Georgia: Light Gray (White), Red */
+  --flag-georgia: linear-gradient(to right, #D3D3D3, #FF0000, #D3D3D3);
+
+  /* Ireland: Green, Light Gray (White), Orange */
+  --flag-ireland: linear-gradient(to right, #169B62, #D3D3D3, #FF883E);
+
+  /* Turkey: Red, Light Gray (White) */
+  --flag-turkey: linear-gradient(to right, #E30A17, #D3D3D3);
+
+  /* Serbia: Red, Blue, Light Gray (White) */
+  --flag-serbia: linear-gradient(to right, #C6363C, #0C4076, #D3D3D3);
+
+  /* Colombia: Yellow, Blue, Red */
+  --flag-colombia: linear-gradient(to right, #FCD116, #003893, #CE1126);
+
+  /* Poland: Light Gray (White), Red */
+  --flag-poland: linear-gradient(to right, #D3D3D3, #DC143C);
+
+  /* Hungary: Red, Light Gray (White), Green */
+  --flag-hungary: linear-gradient(to right, #CE2939, #D3D3D3, #477050);
+
+  /* Morocco: Red, Green */
+  --flag-morocco: linear-gradient(to right, #C1272D, #006233);
+}
+
+/* Hover effects for each country */
+.country-romania:hover {
+  background: var(--flag-romania);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3); /* Lighter border */
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-mexico:hover {
+  background: var(--flag-mexico);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-india:hover {
+  background: var(--flag-india);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-japan:hover {
+  background: var(--flag-japan);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-greece:hover {
+  background: var(--flag-greece);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-brazil:hover {
+  background: var(--flag-brazil);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-georgia:hover {
+  background: var(--flag-georgia);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-ireland:hover {
+  background: var(--flag-ireland);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-turkey:hover {
+  background: var(--flag-turkey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-serbia:hover {
+  background: var(--flag-serbia);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-colombia:hover {
+  background: var(--flag-colombia);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-poland:hover {
+  background: var(--flag-poland);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-hungary:hover {
+  background: var(--flag-hungary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.country-morocco:hover {
+  background: var(--flag-morocco);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgba(24, 23, 36, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
