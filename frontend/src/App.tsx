@@ -11,7 +11,7 @@ import Multimedia from './pages/Multimedia/Multimedia';
 import Apply from './pages/Apply/Apply';
 import Contact from './pages/Contact/Contact';
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
       <div className="App">

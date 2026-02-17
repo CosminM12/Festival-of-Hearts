@@ -3,7 +3,7 @@ import { motion, useInView } from "motion/react";
 import { MapPin, Mail, Phone, Instagram, Facebook } from "lucide-react";
 import './Footer.css';
 
-const Footer = () => {
+const Footer : React.FC = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-50px" });
 
@@ -19,7 +19,7 @@ const Footer = () => {
                     {/* Brand */}
                     <div>
                         <h3 className="font-display text-2xl font-bold text-gradient-gold mb-4">
-                            Festival Inimilor
+                            Festivalul Inimilor
                         </h3>
                         <p className="text-muted-foreground text-sm leading-relaxed">
                             Festivalul Internațional de Folclor al Timișoarei.
@@ -32,13 +32,13 @@ const Footer = () => {
                         <h4 className="font-display text-lg font-semibold text-foreground mb-4">Contact</h4>
                         <div className="flex flex-col gap-3 text-sm text-muted-foreground">
                             <a href="mailto:contact@festivalinimilor.ro" className="flex items-center gap-2 hover:text-primary transition-colors">
-                                <Mail className="w-4 h-4" /> contact@festivalinimilor.ro
+                                <Mail className="w-4 h-4" /> office@ccmt.ro
                             </a>
                             <a href="tel:+40256123456" className="flex items-center gap-2 hover:text-primary transition-colors">
-                                <Phone className="w-4 h-4" /> +40 256 123 456
+                                <Phone className="w-4 h-4" /> +40 256 498 214
                             </a>
                             <span className="flex items-center gap-2">
-                <MapPin className="w-4 h-4" /> Timișoara, România
+                <MapPin className="w-4 h-4" /> Strada Miron Costin, Nr. 2, Timișoara, România
               </span>
                         </div>
                     </div>
